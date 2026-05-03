@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arohan Academy — Coming Soon</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    @font-face {
+      font-family: 'Becker';
+      src: url('becker-medium.ttf') format('truetype');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: #ffffff;
+      color: #1a1a1a;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .card {
+      text-align: center;
+      max-width: 520px;
+      width: 100%;
+    }
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin: 0 auto 1.2rem;
+      display: block;
+    }
+
+    .school-name {
+      font-family: 'Becker', Georgia, serif;
+      font-size: clamp(2rem, 6vw, 3rem);
+      font-weight: 500;
+      line-height: 1.1;
+      letter-spacing: 0.02em;
+      background: linear-gradient(180deg, #1A3878 0%, #1D5CAF 50%, #2470C8 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke: 1.5px #07152E;
+      filter: drop-shadow(1px 2px 4px rgba(0,0,0,0.35));
+      margin-bottom: 0.3rem;
+    }
+
+    .school-tagline {
+      font-size: 0.78rem;
+      color: #999;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 2.5rem;
+    }
+
+    .divider {
+      width: 48px;
+      height: 3px;
+      background: #c8921a;
+      border-radius: 2px;
+      margin: 0 auto 2.5rem;
+    }
+
+    .message h1 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: clamp(1.1rem, 3vw, 1.4rem);
+      font-weight: 600;
+      color: #1a1a1a;
+      margin-bottom: 0.8rem;
+    }
+
+    .message p {
+      font-size: 0.95rem;
+      color: #666;
+      line-height: 1.7;
+      margin-bottom: 2rem;
+    }
+
+    .contact-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      font-size: 0.88rem;
+      color: #555;
+      flex-wrap: wrap;
+    }
+
+    .contact-row a {
+      color: #1E3A5F;
+      font-weight: 500;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .contact-row a:hover { color: #c8921a; }
+
+    .sep { color: #ddd; margin: 0 0.3rem; }
+
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.72rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+
+    <img src="arohan-logo.jpg" alt="Arohan Academy Logo" class="logo">
+
+    <div class="school-name">Arohan Academy</div>
+    <div class="school-tagline">CBSE Affiliation No. 1130496 · Est. 2011</div>
+
+    <div class="divider"></div>
+
+    <div class="message">
+      <h1>We're updating our website</h1>
+      <p>Our new website is currently under construction.<br>
+         Please check back soon — we'll be live shortly.</p>
+    </div>
+
+    <div class="contact-row">
+      <span>📞</span>
+      <a href="tel:+91XXXXXXXXXX">+91-XXXXX-XXXXX</a>
+      <span class="sep">|</span>
+      <span>✉️</span>
+      <a href="mailto:info@arohanacademy.in">info@arohanacademy.in</a>
+    </div>
+
+    <div class="footer">© 2025 Arohan Academy. All rights reserved.</div>
+
+  </div>
+
+</body>
+</html>
